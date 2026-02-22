@@ -50,6 +50,8 @@ ul {
     flex-direction: column;
     gap: 16px;
 
+    padding: 24px 0px;
+
 }
 
 li {
@@ -80,3 +82,41 @@ ul li a {
     border: 1.5px solid white;
     background-color: rgba(255, 255, 255, 0.05);
 }
+
+#social-links {
+  display: flex;
+  justify-content: center;
+
+  padding: 24px 0px;
+
+  font-size: 24px;
+}
+
+#social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px;
+
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+
+#social-links a:hover{
+  background-color: rgba(255, 255, 255, 0.281);
+  padding: 16px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+footer a {
+    padding: 5px;
+}
+
