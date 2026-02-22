@@ -8,5 +8,4 @@ function toggleMode() {
         html.classList.add('light')
     }
 
-    html.classList.toggle('light')
 }
