@@ -16,4 +16,18 @@ function toggleMode() {
         img.setAttribute('src', './assets/avatar.png')
     }
 
+
+    const alt = document.querySelector("#profile img")
+
+
+    
+    if(html.classList.contains('light')) {
+        
+        alt.setAttribute('alt', 'foto clara')
+    } else {
+        alt.setAttribute('alt', 'foto escura')
+    }
+
+    
+
 }
